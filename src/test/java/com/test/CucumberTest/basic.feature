@@ -20,13 +20,13 @@ But  Validation on test required
 
 Scenario: I need to check all keywords within BDD multiframework
 
-When i want to run test "<alpha>" 
-Then  I will run test "<beta>"
-And  Test looks good "<gamma>"
-But  Validation on test required "<jgj>"
+Given I am manual abc
+|Location|Position|
+|usa|contract|
+|New Delhi|Permanent|
 
-Examples:
+When i want to run test abc 
+Then  I will run test abc
+And  Test looks good abc
+But  Validation on test required abc
 
-|alpha|beta|gamma|jgj|
-|abc  |def |geh  |jai ho|
-|ijk  |lmn |opq  |jai ho|
